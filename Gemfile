@@ -1,4 +1,6 @@
 source "https://rubygems.org"
+require 'capybara'
+require 'capybara/dsl'
 
 gem 'sinatra', require: 'sinatra/base'
 gem 'sinatra-reloader', require: false
